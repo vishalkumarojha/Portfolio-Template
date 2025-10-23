@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-website",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "jiti": "latest",
+    "less": "latest",
+    "lightningcss": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "latest",
+    "sass": "latest",
+    "sass-embedded": "latest",
+    "stylus": "latest",
+    "sugarss": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "terser": "latest",
+    "tsx": "latest",
+    "yaml": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^22",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1.9",
+    "typescript": "^5",
+    "vite": "^5.0.0"
+  }
+}
