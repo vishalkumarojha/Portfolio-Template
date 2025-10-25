@@ -12,6 +12,7 @@ import Experience from "./components/Experience"
 import Sidebar from "./components/Sidebar"
 import Footer from "./components/Footer"
 
+
 function App() {
   const [showSidebar, setShowSidebar] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
